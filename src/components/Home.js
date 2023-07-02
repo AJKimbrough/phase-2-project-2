@@ -41,11 +41,11 @@ function Home({ img, NFTs, onAddNFT }){
                         </span>
                         <div>
                 {NFTs.map((item) => ( 
-                    (item.img === img ? <div key={item.id}>
+                     <div key={item.id}>
                         <h2>{item.name}</h2>
                         <p>{item.price}</p>
                         <p>{item.description}</p>
-                    </div> : "")
+                    </div> 
                 ))}
                     </div>
                 </div>
