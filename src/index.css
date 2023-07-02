@@ -1,9 +1,9 @@
 
 body {
-  background-color: white;
+  background-color: black;
 }
 
-.best, .home-container {
+.best, .home-container, .Nft-form, .myNFT {
   background-color: gray;
 }
 

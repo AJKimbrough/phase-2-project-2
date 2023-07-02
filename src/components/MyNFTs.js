@@ -33,10 +33,10 @@ const nft = myNFTs.map((nft)=> (
 
 
     return(
-        <>
+        <div className="myNFT">
         <h1>MyNFTs</h1>
         {nft}
-        </>
+        </div>
     )
 }
 

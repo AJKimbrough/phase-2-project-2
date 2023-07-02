@@ -44,7 +44,7 @@ function NFTForm(nft) {
   
 
   return (
-    <section>
+    <section className="Nft-form">
       <h1>New NFT</h1>
       <form onSubmit={handleSubmit}>
         <label>
