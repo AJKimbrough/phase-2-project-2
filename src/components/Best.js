@@ -14,9 +14,9 @@ function Best({ bestImg, NFTs }){
         <button className="Add button" type="submit" >Add to Wallet</button>
         <button onClick={openModal}>View details</button>
                 {isOpen && (
-                    <div className="modal">
-                        <div className="modal-content">
-                            <span className="close" onClick={openModal}>
+                    <div className="modalBest">
+                        <div className="modal-content-Best">
+                            <span className="closeBest" onClick={openModal}>
                             &times;
                         </span>
                         <div>
@@ -35,7 +35,7 @@ function Best({ bestImg, NFTs }){
       ))
 
     return(
-        <div>
+        <div className="best">
         <h1>Best</h1>
         {image}
         </div>

@@ -6,8 +6,9 @@ function Home({ img, NFTs, onAddNFT }){
     const [myNFTs, setMyNFTs] = useState([])
 
     const openModal = () => {
-            setIsOpen((isOpen) => !isOpen)
+            setIsOpen((isOpen ) => !isOpen)
         }
+    
 
         useEffect(() => {
          fetch("http://localhost:3000/myNFTs")
@@ -41,11 +42,11 @@ function Home({ img, NFTs, onAddNFT }){
                         </span>
                         <div>
                 {NFTs.map((item) => ( 
-                     <div key={item.id}>
+                    (item.img === img ? <div key={item.id}>
                         <h2>{item.name}</h2>
                         <p>{item.price}</p>
                         <p>{item.description}</p>
-                    </div> 
+                    </div> : "")
                 ))}
                     </div>
                 </div>
@@ -55,9 +56,9 @@ function Home({ img, NFTs, onAddNFT }){
       ))
 
     return(
-        <div>
+        <div className="home-container">
         <h1>Home</h1>
-        <ul>{image}</ul>
+        {image}
         </div>
     )
 }
