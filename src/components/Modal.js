@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 const Modal = () => {
     const [isOpen, setIsOpen] = useState(false)
+    
 
     const openModal = () => {
         setIsOpen(true)
@@ -11,7 +12,7 @@ const Modal = () => {
     const closeModal = () => {
         setIsOpen(false)
     }
-
+ 
     return (
         <div>
         <button onClick={openModal}>Open Modal</button>
@@ -21,7 +22,7 @@ const Modal = () => {
                     <span className="close" onClick={closeModal}>
                     &times;
                 </span>
-                <h2>Modal Title</h2>
+                <h2>{name}</h2>
                 <p>Modal Content</p>
                 </div>
                 </div>
