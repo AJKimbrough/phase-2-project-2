@@ -6,7 +6,7 @@ The NFT wallet is a simple tool to keep track of NFTs. The Home page opens to a 
 Installation Clone the repositories and open on your local machine
 Open local json server:
 json-server --watch db/db.json
-npm start to run
+npm start in frontEnd window to run 
 
 Click through each link in the navbar to see each route
 Click on the "view details" button to see NFT information 
