@@ -35,20 +35,29 @@ function Home({ img, NFTs, onAddNFT }){
             <>
             <img alt="nft logo" src={nft.img} width={250} height={250} key={nft.img} />
             <button key={nft.name} onClick={openModal} className="button">View Details</button>
-            {isOpen && (
-                <div className="modal">
-                    <div className="modal-content">
-                        <span className="close" onClick={closeModal}>
-                            &times;
-                        </span>
+           
+            </>
+        ))
+
+        const mod = NFTs.map((nft) => (
+            <>
+            
+                 {isOpen && (
+                    <div className="modal">
+                        <div className="modal-content">
+                            <span className="close" onClick={openModal}>
+                             &times;
+                            </span>
                         <h2>{nft.name}</h2>
                         <p>{nft.price}</p>
                         <p>{nft.description}</p>
                     </div>
-                </div>
-            )}
-            </>
-        ))
+                </div>)}
+                </>
+            ))
+        
+
+        
 
         /*
    const image = img.map((img)=>(
@@ -80,6 +89,7 @@ function Home({ img, NFTs, onAddNFT }){
         <div className="home-container">
         <h1>Home</h1>
         {nft}
+        {mod}
         </div>
     )
 }
