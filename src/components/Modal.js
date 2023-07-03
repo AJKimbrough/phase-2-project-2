@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-function Modal = () => {
+const Modal = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const openModal = () => {
@@ -12,5 +12,21 @@ function Modal = () => {
         setIsOpen(false)
     }
 
-    
-}
+    return (
+        <div>
+        <button onClick={openModal}>Open Modal</button>
+        {isOpen && (
+            <div className="modal">
+                <div className="modal-content">
+                    <span className="close" onClick={closeModal}>
+                    &times;
+                </span>
+                <h2>Modal Title</h2>
+                <p>Modal Content</p>
+                </div>
+                </div>
+        )}
+        </div>
+    )
+                    }
+export default Modal;
