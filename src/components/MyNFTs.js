@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
+import Modal from "./Modal";
 
 
 function MyNFTs({ NFTs }){
    const [myNFTs, setMyNFTs] = useState([])
-   
+   const [isOpen, setIsOpen] = useState(false)
 
    useEffect(() => {
     fetch("http://localhost:3000/myNFTs")
@@ -22,12 +23,16 @@ function MyNFTs({ NFTs }){
     setMyNFTs(filteredNFTs)
 
    }
+   const openModal = () => {
+    setIsOpen((isOpen ) => !isOpen)
+}
    
     
 const nft = myNFTs.map((nft)=> (
     <>
     <img alt="nft logo" src={nft.img} width={250} height={250} key={nft.img} />
     <button key={nft.name} onClick={() => handleDeleteClick(nft.id)} className="remove button" type="submit">Remove</button>
+    <button key={nft.name} onClick={openModal} className="button">{<Modal NFTs={NFTs} name={nft.name} price={nft.price} description={nft.description}/>}</button>
     </>
 ))
 
