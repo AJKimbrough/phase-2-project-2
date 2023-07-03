@@ -1,0 +1,260 @@
+{
+  "NFTs": [
+    {
+      "id": "1",
+      "name": "CryptoPunks",
+      "img": "https://i.seadn.io/gcs/files/f3564ef33373939b024fb791f21ec37b.png?auto=format&w=750",
+      "price": "$1,762.23",
+      "description": "CryptoPunks launched as a fixed set of 10,000 items in mid-2017 and became one of the inspirations for the ERC-721 standard. They have been featured in places like The New York Times, Christie’s of London, Art|Basel Miami, and The PBS NewsHour."
+    },
+    {
+      "id": "2",
+      "name": "Bored Ape Yacht Club",
+      "img": "https://ik.imagekit.io/bayc/assets/ape3.png",
+      "price": "$1,762.23",
+      "description": "The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation."
+    },
+    {
+      "id": "3",
+      "name": "Mutant Ape Yacht Club",
+      "img": "https://i.seadn.io/gcs/files/0a3759a0c9456a60dda2c18bae4b6fbd.png?auto=format&w=750",
+      "price": "$1,762.23",
+      "description": "The MUTANT APE YACHT CLUB is a collection of up to 20,000 Mutant Apes that can only be created by exposing an existing Bored Ape to a vial of MUTANT SERUM or by minting a Mutant Ape in the public sale."
+    },
+    {
+      "id": "4",
+      "name": "Azuki",
+      "img": "https://i.seadn.io/gcs/files/fef02bf7825bbd538f89d0cb7690b25e.png?auto=format&w=750",
+      "price": "$1,760.79",
+      "description": "Azuki starts with a collection of 10,000 avatars that give you membership access to The Garden: a corner of the internet where artists, builders, and web3 enthusiasts meet to create a decentralized future. Azuki holders receive access to exclusive drops, experiences, and more. We rise together. We build together. We grow together."
+    },
+    {
+      "id": "5",
+      "name": "Otherdeed for Otherside",
+      "img": "https://i.seadn.io/gcs/files/9566a717e815f9208db7a4ab34ebca4c.jpg?auto=format&w=750",
+      "price": "$1,877.38",
+      "description": "Otherdeed is the key to claiming land in Otherside. Each have a unique blend of environment and sediment — some with resources, some home to powerful artifacts. And on a very few, a Koda roams."
+    },
+    {
+      "id": "6",
+      "name": "Chromie Squiggle by Snowfro",
+      "img": "https://i.seadn.io/gcs/files/89799d17b8c6d0e70831a64be40eacc6.png?auto=format&w=750",
+      "price": "$1,756.90",
+      "description": "Simple and easily identifiable, each squiggle embodies the soul of the Art Blocks platform. Consider each my personal signature as an artist, developer, and tinkerer. Public minting of the Chromie Squiggle is permanently paused. They are now reserved for manual distribution to collectors and community members over a longer period of time. Please visit OpenSea to explore Squiggles available on the secondary market."
+    },
+    {
+      "id": "7",
+      "name": "Autoglyphs",
+      "img": "https://openseauserdata.com/files/08e4aa933d8ddd97ea8116d594262ad9.svg",
+      "price": "$1,758.60",
+      "description": "Autoglyphs are the first “on-chain” generative art on the Ethereum blockchain. A completely self-contained mechanism for the creation and ownership of an artwork."
+    },
+    {
+      "id": "8",
+      "name": "DeGods",
+      "img": "https://i.seadn.io/gcs/files/4825965193b5acd24167efd027ca6201.png?auto=format&w=750",
+      "price": "$1,758.60",
+      "description": "A deflationary collection of degenerates, punks, and misfits. Gods of the metaverse & masters of our own universe. Powered by the Solana Blockchain. Your DeGod gives you the ability to mine DUST, access to our NFT tracking mobile app DYOR, membership into our community, and tons of other cool sh*t. DeGods can be converted to DeadGods with DUST."
+    },
+    {
+      "id": "9",
+      "name": "The Sandbox",
+      "img": "https://i.seadn.io/gcs/files/06eb7d5e959b977357eba255a5c0b645.webp?auto=format&w=750",
+      "price": "$1,758.60",
+      "description": "The Sandbox is a community-driven platform where creators can monetize voxel assets and gaming experiences on the blockchain. The Sandbox metaverse comprises a map made up of 166,464 LANDS. LAND owners can host contests and events, stake SAND to earn and customize assets, monetize assets and experiences, vote in the metaverse governance, play games that you or others create, and more! Trade the collection and keep your eyes peeled for future drops."
+    },
+    {
+      "id": "10",
+      "name": "The Captainz",
+      "img": "https://i.seadn.io/gcs/files/f2847e3d707aad3a67e681e82744f218.gif?auto=format&w=750",
+      "price": "$1,762.23",
+      "description": "9,999 PIRATE CAPTAINZ SEARCHING FOR THE LEGENDARY MEMELAND.9,999 Captainz, with their pirate crewz, explore the Broken Seas in search of the legendary treasure known as “Memeland”. Join them in their quests for glory, fortune, love, and of course… memes."
+    },
+    {
+      "id": "11",
+      "name": "Clone X",
+      "img": "https://i.seadn.io/gcs/files/f137576e06d9fc7c4bdc7813ce09ed82.png?auto=format&dpr=1&w=1000",
+      "price": "$5,135.52",
+      "description": "20,000 next-gen Avatars, by RTFKT and Takashi Murakami"
+    },
+    {
+      "id": "12",
+      "name": "Fidenza",
+      "img": "https://i.seadn.io/gcs/files/fed8f96fc2412873bbe59a5efe70710d.png?auto=format&dpr=1&w=1000",
+      "price": "$96,878",
+      "description": "Fidenza is by far my most versatile algorithm to date. Although the program stays focused on structured curves and blocks, the varieties of scale, organization, texture, and color usage it can employ create a wide array of generative possibilities."
+    },
+    {
+      "id": "13",
+      "name": "Decentraland",
+      "img": "https://i.seadn.io/gae/rT96-HEy1cAZJ6t3k1QPoZp5ZZhPik1umovLQzOgBBOtUo8E8bRtteVQdk3F54flRHTW-bS6333jAq0AWTJVbtSOQ4rUaXBsh20q9Q?auto=format&dpr=1&w=1000",
+      "price": "$909.80",
+      "description": "Decentraland is an Ethereum blockchain-powered virtual world, developed and owned by its users, who can create, experience, and monetize content and applications. Join a growing community of virtual world inhabitants who are building the world's largest alternate reality economy on the blockchain. In this store, you can buy and sell land assets in MANA, DCL's native currency."
+    },
+    {
+      "id": "14",
+      "name": "Bored Ape Kennel Club",
+      "img": "https://i.seadn.io/gae/xfig7db1itooQp1n0WY5OUHZTIU1yEcKKBxb0rWYaDVSu9CrdgSIPDwtBC3zbnOF514-1nLRwasy-MFRxHQedsqZb9W1elCkXzQMPA?auto=format&dpr=1&w=1000",
+      "price": "$7,267.11",
+      "description": "It gets lonely in the swamp sometimes. That's why every ape should have a four-legged companion. To curl up at your feet. To bring you a beer. To fire a missile launcher at that bastard Jimmy the Monkey. That's why we've started the Bored Ape Kennel Club, and why we're offering up a dog NFT for adoption to every single member of the BAYC for free (you only pay gas)."
+    },
+    {
+      "id": "15",
+      "name": "World of Women",
+      "img": "https://i.seadn.io/gcs/files/3687f6fd900d42d35fdb5a171ccadfaa.png?auto=format&dpr=1&w=1000",
+      "price": "$1,531.07",
+      "description": "World of Women is a collection of 10,000 NFTs that gives you full access to our network of artists, creators, entrepreneurs, and executives who are championing diversity and equal opportunity on the blockchain."
+    },
+    {
+      "id": "16",
+      "name": "Pudgy Penguins",
+      "img": "https://i.seadn.io/gcs/files/ec5cee3aabac8faee4492ca25d159f3e.png?auto=format&dpr=1&w=3840",
+      "price": "$8,295.24",
+      "description": "A collection 8888 Cute Chubby Pudgy Penquins sliding around on the freezing ETH blockchain."
+    },
+    {
+      "id": "17",
+      "name": "Milady Maker",
+      "img": "https://i.seadn.io/gcs/files/e262bfc29f997d0943a6fab4ed91657c.png?auto=format&dpr=1&w=1000",
+      "price": "$6,934.84",
+      "description": "Milady Maker is a collection of 10,000 generative pfpNFT's in a neochibi aesthetic inspired by Tokyo street style tribes."
+    },
+    {
+      "id": "18",
+      "name": "Otherside Koda",
+      "img": "https://i.seadn.io/gcs/files/05cf4e91f151dfa4d5fc4d96b2251195.webp?auto=format&dpr=1&w=1000",
+      "price": "$12,163.28",
+      "description": "Kodas are celestial beings that reside in Otherside. About the Kodas origins and culture, little is known, but their magic and science keep Otherside thriving."
+    },
+    {
+      "id": "19",
+      "name": "Ringers",
+      "img": "https://i.seadn.io/gcs/files/361eb1fafeb0b608f67107055afe024f.png?auto=format&dpr=1&w=1000",
+      "price": "$64,294",
+      "description": "There are an almost infinite number of ways to wrap a string around a set of pegs. On the surface it may seem like a simple concept but prepare to be surprised and delighted at the variety of combinations the algorithm can produce. Each output from 'Ringers' is derived from a unique transaction hash and generated in Javascript in the browser. Feature variations include peg count, sizing, layout, wrap orientation, and a few colorful flourishes for good measure."
+    },
+    {
+      "id": "20",
+      "name": "The Potatoz",
+      "img": "https://i.seadn.io/gcs/files/5a4fe1d64087c8641ed57a892a2c34fb.gif?auto=format&dpr=1&w=1000",
+      "price": "$5,305.50",
+      "description": "A long time ago, in a memetaverse far, far away… Memeland was a deserted land unsuitable for life. Until [redacted] years ago, early lifeforms started to appear. Memeland's first residents, it turns out, were a bunch of Potatoz. Who left the Potatoz there? The Potatoz is a collection of 9,999 utility-enabled PFPs. Each Potatoz is your entry ticket into the great Memeland ecosystem. They make for a great side dish, but some may feel a calling to become the main course. Rumour has it they are secretly related to the Memelist, $MEME, MVP, and more!"
+    },
+    {
+      "id": "21",
+      "name": "CryptoNinja Partners",
+      "img": "https://i.seadn.io/gcs/files/e11e0182ff9e210477746f015088009b.png?auto=format&dpr=1&w=1000",
+      "price": "$4.87",
+      "description": "Yama is Ibuki's partner in CryptoNinja.They seem to transform into various forms to carry out their missions...!"
+    },
+    {
+      "id": "22",
+      "name": "BEANZ Official",
+      "img": "https://i.seadn.io/gcs/files/0b4643ba0ac158f008d8afbee5765867.png?auto=format&dpr=1&w=1000",
+      "price": "$2,220.51",
+      "description": "BEANZ are a small species that sprouts from the dirt in the garden. They make for a great sidekick to an Azuki, although some like to kick it alone. They're earnestly driven by the desire to help. However, certain BEANZ feel a calling to pave their own path..."
+    },
+    {
+      "id": "23",
+      "name": "YOU THE REAL MVP",
+      "img": "https://i.seadn.io/gcs/files/babe94fa7fac4c3f284ad00234639395.gif?auto=format&dpr=1&w=1000",
+      "price": "104,148",
+      "description": "Over the last decade, 420 beautifully crafted gold trophies were discovered in different historical sites worldwide. They all have the same inscription:In i dór -o i greatest memes lies i greatest mír. Roughly translated, these words mean: In the Land of the Greatest Memes lies the Greatest Treasure."
+    },
+    {
+      "id": "24",
+      "name": "Otherdeed Expanded",
+      "img": "https://i.seadn.io/gcs/files/7ace595c90aa6517a76a7f63337e47b3.jpg?auto=format&dpr=1&w=1000",
+      "price": "$1,254.83",
+      "description": "These evolved Otherdeeds enable holders to play future games in the Yuga Labs universe. Each possesses its own unique blend of environment and sediment. Some contain resources, and some are home to powerful artifacts."
+    },
+    {
+      "id": "25",
+      "name": "Doodles",
+      "img": "https://i.seadn.io/gcs/files/f3de036fd4886b428d8b0ad2979afc8c.png?auto=format&dpr=1&w=1000",
+      "price": "$4,379.23",
+      "description": "A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian based illustrator, designer, animator and muralist."
+    },
+    {
+      "id": "26",
+      "name": "Dead Cat Bounce Club",
+      "img": "https://i.seadn.io/gae/YjK6tQHCSc2x5s1CarfMhtgGA3kcD3UXn3TVKo4seIj0NrjiMHYNbyRRiO3upNItsZwEiQuQCoK6SjbFtKmPgspzKbKsGscf8fDC-Q?auto=format&dpr=1&w=1000",
+      "price": "$1,008.11",
+      "description": "Dead Cat Bounce Trading Floor where culture meets Trading. A collection of 10 000 Dead Cats Bounce NFTs in the ETHEREUM blockchain built for the fearless and the mighty NFT and Crypto Traders. DCB is a community built ecosystem to enhance the knowledge and trading capacities of our community. Built by traders for traders. Becoming mainstream by partnering with global web2/web3 brands, Live events, NFT/Crypto training. Our goal is to create a community built for all market behaviors and simultaneously becoming recognized as the leading ETHEREUM community and brand. We bring Culture to Trading"
+    },
+    {
+      "id": "4",
+      "name": "DeGods",
+      "img": "https://i.seadn.io/gae/Xb2scmGyhrLwNWwM0__eIShcT2uqpiWpuAYJNqIwbr7KYozjdp8PQzIZB_8JpC8Pb85E2Y82TuWBTK115SZTokVeIloM_2mxmWQfNZ0?auto=format&dpr=1&w=3840",
+      "price": "$15,185.53",
+      "description": "A deflationary collection of degenerates, punks, and misfits. Gods of the metaverse & masters of our own universe. Powered by the Solana Blockchain. Your DeGod gives you the ability to mine DUST, access to our NFT tracking mobile app DYOR, membership into our community, and tons of other cool sh*t. DeGods can be converted to DeadGods with DUST."
+    }
+  ],
+  "Best": [
+    {
+      "id": "1",
+      "name": "Dead Cat Bounce Club",
+      "img": "https://i.seadn.io/gae/YjK6tQHCSc2x5s1CarfMhtgGA3kcD3UXn3TVKo4seIj0NrjiMHYNbyRRiO3upNItsZwEiQuQCoK6SjbFtKmPgspzKbKsGscf8fDC-Q?auto=format&dpr=1&w=1000",
+      "price": "$1,008.11",
+      "description": "Dead Cat Bounce Trading Floor where culture meets Trading. A collection of 10 000 Dead Cats Bounce NFTs in the ETHEREUM blockchain built for the fearless and the mighty NFT and Crypto Traders. DCB is a community built ecosystem to enhance the knowledge and trading capacities of our community. Built by traders for traders. Becoming mainstream by partnering with global web2/web3 brands, Live events, NFT/Crypto training. Our goal is to create a community built for all market behaviors and simultaneously becoming recognized as the leading ETHEREUM community and brand. We bring Culture to Trading"
+    },
+    {
+      "id": "2",
+      "name": "Bored Ape Yacht Club",
+      "img": "https://ik.imagekit.io/bayc/assets/ape3.png",
+      "price": "$1,762.23",
+      "description": "The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation."
+    },
+    {
+      "id": "3",
+      "name": "Clone X",
+      "img": "https://i.seadn.io/gcs/files/f137576e06d9fc7c4bdc7813ce09ed82.png?auto=format&dpr=1&w=1000",
+      "price": "$1,800.23",
+      "description": "20,000 next-gen Avatars, by RTFKT and Takashi Murakami"
+    },
+    {
+      "id": "4",
+      "name": "DeGods",
+      "img": "https://i.seadn.io/gae/Xb2scmGyhrLwNWwM0__eIShcT2uqpiWpuAYJNqIwbr7KYozjdp8PQzIZB_8JpC8Pb85E2Y82TuWBTK115SZTokVeIloM_2mxmWQfNZ0?auto=format&dpr=1&w=3840",
+      "price": "$15,185.53",
+      "description": "A deflationary collection of degenerates, punks, and misfits. Gods of the metaverse & masters of our own universe. Powered by the Solana Blockchain. Your DeGod gives you the ability to mine DUST, access to our NFT tracking mobile app DYOR, membership into our community, and tons of other cool sh*t. DeGods can be converted to DeadGods with DUST."
+    },
+    {
+      "id": "5",
+      "name": "Pudgy Penguins",
+      "img": "https://i.seadn.io/gcs/files/ec5cee3aabac8faee4492ca25d159f3e.png?auto=format&dpr=1&w=3840",
+      "price": "$1,801.33",
+      "description": "A collection 8888 Cute Chubby Pudgy Penquins sliding around on the freezing ETH blockchain."
+    }
+  ],
+  "myNFTs": [
+    {
+      "id": 0.5512031111773232,
+      "name": "Yoots",
+      "img": "https://lh3.googleusercontent.com/hK293oojohbF6YY6NRmVEexwNbNIfxJ52ss_Go6ze-uN5dOsGDl0Oo_XL64QKZrEB4i_xzNr5RNw2_u_VAfY8ijc6SCws8TQa3rf",
+      "price": "$1,954.86",
+      "description": "y00ts is an NFT collectible created by DeLabs that was released on 3-27-2023. The project consists of 11,711 unique digital items living on the Polygon blockchain. We categorize it as a pfp/avatar project and it's part of the DeLabs general collection."
+    },
+    {
+      "id": 0.5105912866963629,
+      "name": "Clone X",
+      "img": "https://i.seadn.io/gcs/files/a87392943f9fd443b49457bd259ba9e6.png?auto=format&dpr=1&w=1000",
+      "price": "$5,798.33",
+      "description": "20,000 next-gen Avatars, by RTFKT and Takashi Murakami 🌸"
+    },
+    {
+      "id": 0.3442963242418091,
+      "name": "BEANZ",
+      "img": "https://i.seadn.io/gcs/files/b085101f48e13da11b9bfde3ec96122b.png?auto=format&dpr=1&w=1000",
+      "price": "$743.11",
+      "description": " BEANZ are a small species that sprouts from the dirt in the garden. They make for a great sidekick to an Azuki, although some like to kick it alone. They're earnestly driven by the desire to help. However, certain BEANZ feel a calling to pave their own path..."
+    },
+    {
+      "id": 0.9275693376960334,
+      "name": "ON1",
+      "img": "https://i.seadn.io/gae/L1pukNaGzhHSzUClUv4Z9VdMJ54JBdNClR8ipDWaYTSPQeleJ6Z2YuT1npQk0z9GIS_CtV105wuFugj8T1Y0VTr069_pVYn-dnx2PQ?auto=format&dpr=1&w=1000",
+      "price": "$134.52",
+      "description": "By  Sand-Vandal-OG Unofficial Remix of ON1 Force #1594*This collection will include altered artworks derived from the ON1 Force, I have in my personal collection. Please Know these are NOT the official ON1 Force NFT  Abstracted Sand Painting Background by Joe Mangrum & SandVandal"
+    }
+  ]
+}
