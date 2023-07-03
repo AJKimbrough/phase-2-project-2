@@ -56,7 +56,7 @@ function Home({ img, NFTs, onAddNFT }){
                 </>
             ))
         
-
+console.log(mod)
         
 
         /*
