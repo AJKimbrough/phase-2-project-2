@@ -11,12 +11,11 @@ function Best({ bestImg, NFTs }){
     const image = bestImg.map((img)=>(
         <div className="best" key={Math.random()}>
         <img alt="nft" className="image" src={img} width={250} height={250} key={img} onClick={openModal}/>
-        <button className="Add button" type="submit" >Add to Wallet</button>
         <button onClick={openModal}>View details</button>
                 {isOpen && (
                     <div className="modalBest">
                         <div className="modal-content-Best">
-                            <span className="closeBest" onClick={openModal}>
+                            <span className="openBest" onClick={openModal}>
                             &times;
                         </span>
                         <div>

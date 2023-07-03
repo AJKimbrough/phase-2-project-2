@@ -32,7 +32,6 @@ function Home({ img, NFTs, onAddNFT }){
    const image = img.map((img)=>(
         <div className="home" key={Math.random()}>
             <img alt="nft" src={img} width={250} height={250} key={img} />
-            <button className="Add button" type="submit">Add to Wallet</button>
             <button onClick={openModal}>View details</button>
                 {isOpen && (
                     <div className="modal">
