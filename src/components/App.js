@@ -43,6 +43,15 @@ useEffect(() => {
 const bestImg = bestImages.map(image => image.img)
 
 useEffect(() => {
+  fetch("http://localhost:3000/Best")
+  .then((r) => r.json())
+  .then((data) => {
+    setBestNFTs(data)
+  })
+}, [])
+
+
+useEffect(() => {
   fetch("http://localhost:3000/NFTs")
   .then((r) => r.json()).then((data) => {
     setNFTs(data)
@@ -71,7 +80,7 @@ const myNFTImg = myNFTImages.map(image => image.img)
           <NFTForm onAddNFT={onAddNFT} NFTs={NFTs} setNFTs={setNFTs} />
         </Route>
         <Route exact path="/Best">
-          <Best bestImg={bestImg} NFTs={NFTs}  />
+          <Best bestImg={bestImg} NFTs={NFTs} bestNFTs={bestNFTs} />
         </Route>
         <Route exact path="/MyNFTs">
           <MyNFTs onAddNFT={onAddNFT} myNFTImg={myNFTImg} NFTs={NFTs} setNFTs={setNFTs} />
