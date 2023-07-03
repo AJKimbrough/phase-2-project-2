@@ -10,9 +10,7 @@ function Home({ img, NFTs, onAddNFT }){
             setIsOpen((isOpen ) => !isOpen)
         }
 
-    const closeModal = () => {
-        setIsOpen(false)
-    }
+
         useEffect(() => {
          fetch("http://localhost:3000/myNFTs")
          .then((r) => r.json())
