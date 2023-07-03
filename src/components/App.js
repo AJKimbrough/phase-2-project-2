@@ -16,6 +16,7 @@ const [NFTs, setNFTs] = useState([])
 const [images, setImages] = useState([])
 const [bestImages, setBestImages] = useState([])
 const [myNFTImages, setMyNFTImages] = useState([])
+const [bestNFTs, setBestNFTs] = useState([])
 
 
   const onAddNFT = (newNFT) => {
