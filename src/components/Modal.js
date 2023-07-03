@@ -15,7 +15,7 @@ const Modal = ({name, price, description }) => {
  
     return (
         <div>
-        <button onClick={openModal}>Open Modal</button>
+        <button onClick={openModal}>View Details</button>
         {isOpen && (
             <div className="modal">
                 <div className="modal-content">

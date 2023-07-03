@@ -35,56 +35,9 @@ function Home({ img, NFTs, onAddNFT }){
         const nft = NFTs.map((nft)=> (
             <>
             <img alt="nft logo" src={nft.img} width={250} height={250} key={nft.img} />
-            <button key={nft.name} onClick={openModal} className="button">View Details</button>
-           <Modal NFTs={NFTs} name={nft.name} price={nft.price} description={nft.description}/>
+            <button key={nft.name} onClick={openModal} className="button">{<Modal NFTs={NFTs} name={nft.name} price={nft.price} description={nft.description}/>}</button>
             </>
         ))
-
-        const mod = NFTs.map((nft) => (
-            <>
-            
-                 {isOpen && (
-                    <div className="modall">
-                        <div className="modal-contentl">
-                            <span className="closel" onClick={openModal}>
-                             &times;
-                            </span>
-                        <h2>{nft.name}</h2>
-                        <p>{nft.price}</p>
-                        <p>{nft.description}</p>
-                    </div>
-                </div>)}
-                </>
-            ))
-        
-console.log(mod)
-        
-
-        /*
-   const image = img.map((img)=>(
-        <div className="home" key={Math.random()}>
-            <img alt="nft" src={img} width={250} height={250} key={img} />
-            <button onClick={openModal}>View details</button>
-                {isOpen && (
-                    <div className="modal">
-                        <div className="modal-content">
-                            <span className="close" onClick={openModal}>
-                            &times;
-                        </span>
-                        <div>
-                {NFTs.map((item) => ( 
-                    (item.img === img ? <div key={item.id}>
-                        <h2>{item.name}</h2>
-                        <p>{item.price}</p>
-                        <p>{item.description}</p>
-                    </div> : "")
-                ))}
-                    </div>
-                </div>
-              </div>
-          )}
-        </div>
-      ))*/
 
     return(
         <div className="home-container">
