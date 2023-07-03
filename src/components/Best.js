@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+import Modal from "./Modal";
 
 function Best({ bestImg, NFTs }){
     const [isOpen, setIsOpen] = useState(false)
@@ -8,6 +9,13 @@ function Best({ bestImg, NFTs }){
         setIsOpen((isOpen) => !isOpen)
     }
 
+    const nft = NFTs.map((nft)=> (
+        <>
+        <img alt="nft logo" src={nft.img} width={250} height={250} key={nft.img} />
+        <button key={nft.name} onClick={openModal} className="button">{<Modal NFTs={NFTs} name={nft.name} price={nft.price} description={nft.description}/>}</button>
+        </>
+    ))
+/*
     const image = bestImg.map((img)=>(
         <div className="best" key={Math.random()}>
         <img alt="nft" className="image" src={img} width={250} height={250} key={img} onClick={openModal}/>
@@ -31,12 +39,12 @@ function Best({ bestImg, NFTs }){
               </div>
           )}
         </div>
-      ))
+      ))*/
 
     return(
         <div className="best">
         <h1>Best</h1>
-        {image}
+        {nft}
         </div>
     )
 }
