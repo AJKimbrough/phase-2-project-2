@@ -8,8 +8,10 @@ function Home({ img, NFTs, onAddNFT }){
     const openModal = () => {
             setIsOpen((isOpen ) => !isOpen)
         }
-    const open = () => 
 
+    const closeModal = () => {
+        setIsOpen(false)
+    }
         useEffect(() => {
          fetch("http://localhost:3000/myNFTs")
          .then((r) => r.json())
@@ -36,7 +38,7 @@ function Home({ img, NFTs, onAddNFT }){
             {isOpen && (
                 <div className="modal">
                     <div className="modal-content">
-                        <span className="close" onClick={openModal}>
+                        <span className="close" onClick={closeModal}>
                             &times;
                         </span>
                         <h2>{nft.name}</h2>
