@@ -39,7 +39,7 @@ function Home({ img, NFTs, onAddNFT }){
 
     return(
         <div className="home-container">
-        <h1>Home!</h1>
+        <h1>Top 25 NFTs on Market</h1>
         {nft}
         
         </div>
