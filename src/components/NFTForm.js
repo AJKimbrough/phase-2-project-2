@@ -1,6 +1,4 @@
-
 import React, { useState } from "react";
-
 
 const url = "http://localhost:3000/myNFTs"
 
@@ -13,7 +11,6 @@ function NFTForm(nft) {
     description: "",
   });
   
-
   function handleChange(event) {
     setNFTData({
       ...NFTData,
@@ -36,12 +33,9 @@ function NFTForm(nft) {
       headers: { "Content-Type": "application/json",},
       body: JSON.stringify(revisedNFTData)
     }).then((r) => r.json()).then(data => {
-      //nft.onAddNFT(data)
       console.log(data)
     })
   }
-
-  
 
   return (
     <section className="Nft-form">

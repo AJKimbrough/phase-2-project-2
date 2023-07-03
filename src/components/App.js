@@ -1,4 +1,3 @@
-//import logo from './../logo.svg';
 import './../App.css';
 import React from 'react';
 import { useState, useEffect } from 'react';
@@ -9,38 +8,14 @@ import Best from "./Best";
 import MyNFTs from "./MyNFTs";
 import NFTForm from './NFTForm';
 
-
-
 function App() {
 const [NFTs, setNFTs] = useState([])
-const [images, setImages] = useState([])
-const [bestImages, setBestImages] = useState([])
-const [myNFTImages, setMyNFTImages] = useState([])
 const [bestNFTs, setBestNFTs] = useState([])
-
-
+const [isOpen, setIsOpen] = useState(false)
+    
   const onAddNFT = (newNFT) => {
     setNFTs([...NFTs, newNFT])
   }
-
-useEffect(() => {
-  fetch("http://localhost:3000/NFTs")
-  .then((r) => r.json())
-  .then((data) => {
-    setImages(data)
-  })
-}, [])
-const img = images.map(image => image.img)
-
-
-useEffect(() => {
-  fetch("http://localhost:3000/Best")
-  .then((r) => r.json())
-  .then((data) => {
-    setBestImages(data)
-  })
-}, [])
-const bestImg = bestImages.map(image => image.img)
 
 useEffect(() => {
   fetch("http://localhost:3000/Best")
@@ -50,47 +25,38 @@ useEffect(() => {
   })
 }, [])
 
-
 useEffect(() => {
   fetch("http://localhost:3000/NFTs")
   .then((r) => r.json()).then((data) => {
     setNFTs(data)
   })
 }, [])
-//const nft = NFTs.map(nft=> console.log(nft.name))
 
+    const openModal = () => {
+        setIsOpen(true)
+    }
 
-
-
-useEffect(() => {
-  fetch("http://localhost:3000/myNFTs")
-  .then((r) => r.json())
-  .then((data) => {
-    setMyNFTImages(data)
-  })
-}, [])
-const myNFTImg = myNFTImages.map(image => image.img)
+    const closeModal = () => {
+        setIsOpen(false)
+    }
 
   return (
     <div className='container'>
-      
       <NavBar />
       <Switch>
         <Route exact path="/NFTForm">
-          <NFTForm onAddNFT={onAddNFT} NFTs={NFTs} setNFTs={setNFTs} />
+          <NFTForm NFTs={NFTs} setNFTs={setNFTs} />
         </Route>
         <Route exact path="/Best">
-          <Best bestImg={bestImg} NFTs={NFTs} bestNFTs={bestNFTs} />
+          <Best NFTs={NFTs} bestNFTs={bestNFTs} openModal={openModal} />
         </Route>
         <Route exact path="/MyNFTs">
-          <MyNFTs onAddNFT={onAddNFT} myNFTImg={myNFTImg} NFTs={NFTs} setNFTs={setNFTs} />
+          <MyNFTs  NFTs={NFTs} openModal={openModal} />
         </Route>
         <Route exact path="/">
-          <Home img={img} NFTs={NFTs} setNFTs={setNFTs} onAddNFT={onAddNFT} />
-          
+          <Home NFTs={NFTs} openModal={openModal} />
         </Route>
         </Switch>
-        
     </div>
   );
 }
