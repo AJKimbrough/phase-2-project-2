@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-const Modal = () => {
+const Modal = ({name, price, description }) => {
     const [isOpen, setIsOpen] = useState(false)
     
 
@@ -23,7 +23,8 @@ const Modal = () => {
                     &times;
                 </span>
                 <h2>{name}</h2>
-                <p>Modal Content</p>
+                <p>{price}</p>
+                <p>{description}</p>
                 </div>
                 </div>
         )}

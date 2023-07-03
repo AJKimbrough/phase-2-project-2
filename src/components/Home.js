@@ -36,7 +36,7 @@ function Home({ img, NFTs, onAddNFT }){
             <>
             <img alt="nft logo" src={nft.img} width={250} height={250} key={nft.img} />
             <button key={nft.name} onClick={openModal} className="button">View Details</button>
-           <Modal NFTs={NFTs} />
+           <Modal NFTs={NFTs} name={nft.name} price={nft.price} description={nft.description}/>
             </>
         ))
 
