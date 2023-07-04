@@ -13,9 +13,7 @@ const [NFTs, setNFTs] = useState([])
 const [bestNFTs, setBestNFTs] = useState([])
 const [isOpen, setIsOpen] = useState(false)
     
-  const onAddNFT = (newNFT) => {
-    setNFTs([...NFTs, newNFT])
-  }
+  
 
 useEffect(() => {
   fetch("http://localhost:3000/Best")
@@ -36,10 +34,6 @@ useEffect(() => {
         setIsOpen(true)
     }
 
-    const closeModal = () => {
-        setIsOpen(false)
-    }
-
   return (
     <div className='container'>
       <NavBar />
@@ -51,7 +45,7 @@ useEffect(() => {
           <Best NFTs={NFTs} bestNFTs={bestNFTs} openModal={openModal} />
         </Route>
         <Route exact path="/MyNFTs">
-          <MyNFTs  NFTs={NFTs} openModal={openModal} />
+          <MyNFTs  NFTs={NFTs} openModal={openModal} isOpen={isOpen} />
         </Route>
         <Route exact path="/">
           <Home NFTs={NFTs} openModal={openModal} />
