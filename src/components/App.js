@@ -16,7 +16,7 @@ const [isOpen, setIsOpen] = useState(false)
   
 
 useEffect(() => {
-  fetch("https://phase-2-project-json-server-2s4z.onrender.com/")
+  fetch("http://localhost:3000/Best")
   .then((r) => r.json())
   .then((data) => {
     setBestNFTs(data)
@@ -24,7 +24,7 @@ useEffect(() => {
 }, [])
 
 useEffect(() => {
-  fetch("https://phase-2-project-json-server-2s4z.onrender.com/")
+  fetch("http://localhost:3000/NFTs")
   .then((r) => r.json()).then((data) => {
     setNFTs(data)
   })
