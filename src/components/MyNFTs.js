@@ -5,7 +5,7 @@ function MyNFTs({ NFTs, openModal }){
    const [myNFTs, setMyNFTs] = useState([])
 
    useEffect(() => {
-    fetch("http://localhost:3000/myNFTs")
+    fetch("https://phase-2-project-json-server-2s4z.onrender.com/myNFTs")
     .then((r) => r.json())
     .then((data) => {
       setMyNFTs(data)
@@ -14,7 +14,7 @@ function MyNFTs({ NFTs, openModal }){
 
    const handleDeleteClick = async (id) => {
     const config = {method: "DELETE"}
-    const response = await fetch(`http://localhost:3000/myNFTs/${id}`, config) 
+    const response = await fetch(`https://phase-2-project-json-server-2s4z.onrender.com/myNFTs/${id}`, config) 
     
     const filteredNFTs = myNFTs.filter(NFT => NFT.id !== id)
     setMyNFTs(filteredNFTs)

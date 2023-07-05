@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const url = "http://localhost:3000/myNFTs"
+const url = "https://phase-2-project-json-server-2s4z.onrender.com/myNFTs"
 
 function NFTForm(nft) {
   const [NFTData, setNFTData] = useState({
