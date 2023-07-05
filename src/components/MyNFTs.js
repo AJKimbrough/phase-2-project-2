@@ -18,6 +18,7 @@ function MyNFTs({ NFTs, openModal }){
     
     const filteredNFTs = myNFTs.filter(NFT => NFT.id !== id)
     setMyNFTs(filteredNFTs)
+    console.log(response)
    }
    
 const nft = myNFTs.map((nft)=> (
